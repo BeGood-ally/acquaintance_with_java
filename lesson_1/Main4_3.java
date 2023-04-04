@@ -53,15 +53,14 @@ public class Main4_3 {
                     "4 - завершение работы с калькулятором");
 
             String but = income.next();
-
-            if(but=="1"){
+            if(but.equals("1")){
                 continue;
             }
-            else if(but=="2"){
+            else if(but.equals("2")){
                 show(activity);
-            } else if(but=="3"){
+            } else if(but.equals("3")){
                 remove(activity);
-            } else if(but=="4"){
+            } else if(but.equals("4")){
                 break;
             } else{
                 System.out.println("будем считать что это один");
