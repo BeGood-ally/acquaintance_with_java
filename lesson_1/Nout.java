@@ -27,10 +27,4 @@ public class Nout {
             this. cost = cost;
 
         }
-    //public void plus_to_set(Object obj){
-        //Nouts.add(obj);
-    //}
-    public int getRelease_year(){
-        return release_year;
-    }
 }
